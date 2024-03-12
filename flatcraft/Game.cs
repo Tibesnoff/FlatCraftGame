@@ -4,12 +4,12 @@ using Microsoft.Xna.Framework.Input;
 
 namespace GameNamespace
 {
-    public class Game1 : Game
+    public class Flatcraft : Game
     {
         private GraphicsDeviceManager graphics;
         private SpriteBatch? spriteBatch;
 
-        public Game1()
+        public Flatcraft()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
