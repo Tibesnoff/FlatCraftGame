@@ -1,3 +1,5 @@
+package com.flatcraft;
+
 import javax.swing.JPanel;
 import java.awt.Graphics;
 

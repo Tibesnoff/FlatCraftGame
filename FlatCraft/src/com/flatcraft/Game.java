@@ -1,3 +1,5 @@
+package com.flatcraft;
+
 public class Game {
     private GameWindow window;
     private GamePanel panel;

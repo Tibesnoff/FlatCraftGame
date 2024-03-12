@@ -1,3 +1,5 @@
+package com.flatcraft;
+
 import javax.swing.JFrame;
 
 public class GameWindow {
