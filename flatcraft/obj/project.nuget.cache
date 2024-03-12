@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "v/nPQZxbFvY9rk0PrPdjOsN7rj0f8fuJpd20+Z7RYGwX1989Oxg7Npuicusq+dRH1NmTh0ChaTBJJfd/xSlH6g==",
+  "success": true,
+  "projectFilePath": "D:\\GameDev\\FlatCraftGame\\flatcraft\\flatcraft.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tibes\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}

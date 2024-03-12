@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+    <!-- Include any other NuGet packages your project depends on -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Content\**" />
+    <!-- Include content files (textures, sounds, etc.) here -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Content\Content.mgcb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <!-- Include the MonoGame content project file -->
+  </ItemGroup>
+</Project>
+
