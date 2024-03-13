@@ -1,4 +1,6 @@
-package com.flatcraft;
+package com.flatcraft.display;
+
+import static com.flatcraft.constants.*;
 
 import javax.swing.JFrame;
 
@@ -8,7 +10,7 @@ public class GameWindow {
 
     public GameWindow() {
         frame = new JFrame("FlatCraft");
-        frame.setSize(800, 600);
+        frame.setSize(WIDTH, HEIGHT);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // Keep this here so the game does not bug
         frame.setVisible(true);

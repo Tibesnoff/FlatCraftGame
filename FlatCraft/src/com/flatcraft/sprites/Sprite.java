@@ -31,6 +31,22 @@ public class Sprite {
         this.y = y;
     }
 
+    public void moveUp() {
+        y -= 10;
+    }
+
+    public void moveDown() {
+        y += 10;
+    }
+
+    public void moveLeft() {
+        x -= 10;
+    }
+
+    public void moveRight() {
+        x += 10;
+    }
+
     public void drawSprite(Graphics g) {
         g.drawRect(x, y, width, height);
     }
